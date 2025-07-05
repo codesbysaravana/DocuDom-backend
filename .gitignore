@@ -1,40 +1,41 @@
-# 🐍 Python bytecode
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
 
-# 📦 Virtual environments
-venv/
+# Python cache files in subdirs
+app/__pycache__/
+routes/__pycache__/
+app/*.pyc
+routes/*.pyc
+
+# Virtual environments
 .venv/
-ENV/
-env/
-.ENV/
-.env.bak/
-env.bak/
+venv/
 
-# 🔐 Environment variable files
+# Environment variables
 .env
-.env.*
-*.env
 
-# 🚀 Deployment-related
-*.log
-*.zip
-
-# 🧪 Pytest cache
-.pytest_cache/
-
-# 📦 Package/build directories
-build/
-dist/
-*.egg-info/
-
-# 🐛 VS Code settings (optional, if you use VS Code)
+# VSCode settings (optional)
 .vscode/
 
-# 💾 OS-specific
+# OS-specific
 .DS_Store
 Thumbs.db
 
-# 🧪 Jupyter & IPython (optional)
+# Uploaded user files
+uploaded_docs/
+
+# Build & packaging files
+*.tar.gz
+*.zip
+*.egg-info/
+
+# Logs & debug
+*.log
+
+# PyInstaller
+*.spec
+
+# Jupyter/IPython
 .ipynb_checkpoints/
