@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+langchain
+pymongo
+pydantic
+python-multipart
+sentence-transformers
+tiktoken
+requests
+ollama 
+python-dotenv
+PyPDF2
+typing
+boto3

@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "app_function": "main.app",
+    "aws_region": "ap-south-1",
+    "profile_name": "default",
+    "project_name": "docudom-backend",
+    "runtime": "python3.10",
+    "s3_bucket": "docusage-frontend-bucket",
+    "slim_handler": true,
+    "keep_warm": false,
+    "manage_roles": true,
+    "timeout_seconds": 30,
+    "memory_size": 512,
+    "environment_variables": {
+      "MONGO_URI": "mongodb+srv://DocuSageAi:DocuSageAi@cluster.xprt6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster",
+      "LLM_API_KEY": "tinyllama"
+    }
+  }
+}
