@@ -6,4 +6,4 @@ FROM python:3.11-slim
         EXPOSE 5000
         CMD ["python", "app.py"]
 
-# AutoDock timestamp: 2025-08-05T05:35:41.093061Z
+# AutoDock timestamp: 2025-08-05T10:46:57.371362Z
